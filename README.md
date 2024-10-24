@@ -4,11 +4,13 @@ Objective: The player competes against the computer by choosing one of three ele
 Fire beats Earth
 Earth beats Water
 Water beats Fire
+
 Gameplay Loop:
 The game displays the current score (wins, losses, ties).
 The player is prompted to enter their move (F for Fire, W for Water, E for Earth, or Q to quit).
 If the player enters an invalid option, they are prompted to try again.
 The game then waits for a moment, counts down from 3, and reveals the computer's random choice.
+
 Scoring:
 The game compares the player's choice to the computer's choice to determine the outcome:
 If both choices are the same, it's a tie.
